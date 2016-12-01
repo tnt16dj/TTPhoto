@@ -135,6 +135,58 @@ button, input, .btn, a.btn {
 	display: block;
 }
 
+/* =====  OPT-IN ===== */
+
+#optin {
+	 background: #3e4249;
+	 padding: 20px 0;
+	 color: white;
+	 -webkit-font-smoothing: antialiased;
+	 text-rendering: optimizelegibility;
+	 font-size: 1.2em;
+}
+
+#optin p {
+	 margin: 7px 0 0 0;
+}
+
+/* =====  WHO BENEFITS SECTION ===== */
+
+#who-benefits {
+	 background: white;
+}
+
+/* =====  COURSE FEATURES ===== */
+
+#course-features {
+	 background: #3e4249;
+	 color: white;
+	 text-align: center;
+}
+
+/* =====  PROJECT FEATURES ===== */
+
+#project-features {
+	 text-align: center;	
+}
+
+/* =====  VIDEO FEATURES ===== */
+
+#video-feature {
+		background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+		background-size: cover;
+		min-height: 500px;
+		text-align: center;
+		color: white;
+}
+
+/* =====  INSTRUCTOR SECTION ===== */
+#instructor {
+		background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
+}
+
+
+
 /* =====  LAYOUT ===== */
 
 section {
@@ -153,20 +205,18 @@ section h3 {
 	margin: 30px 0 10px;
 }
 
+/* =====  CUSTOM ICON SPRITES ===== */
 
-#optin {
-	 background: #3e4249;
-	 padding: 20px 0;
-	 color: white;
-	 -webkit-font-smoothing: antialiased;
-	 text-rendering: optimizelegibility;
-	 font-size: 1.2em;
+i.ci {
+	 display: inline-block;
+   width: 40px;
+   height: 40px;
+   background: url('../img/icon-sprite.png') no-repeat;
 }
 
-#optin p {
-	 margin: 7px 0 0 0;
-}
-
-#who-benefits {
-	background: white;
-}
+.ci.ci-computer {background-position: 0 0;}
+.ci.ci-watch {background-position: -40 0;}
+.ci.ci-calendar {background-position: -80 0;}
+.ci.ci-community {background-position: -120 0;}
+.ci.ci-instructor {background-position: -160 0;}
+.ci.ci-device {background-position: -200 0;}
